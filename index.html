@@ -1,162 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Template</title>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="main.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Template</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="login-page-container">
+      <nav class="navbar">
+        <img src="Images/shape.png" alt="" />
+      </nav>
 
-<div class="login-page-container">
-  <nav class="navbar">
-    <div class="container">
-      <div class="logo">
-        <img src="Images/shape.png" alt="">
-      </div>
-    </div>
-  </nav>
+      <header class="header">
+        <img src="Images/Login.png" alt="" />
+        <p>Sign in with your data that you entered during your registration.</p>
+      </header>
 
-  <header class="header">
-    <div class="container">
-      <img src="Images/Login.png" alt="">
-      <p>Sign in with your data that you entered during your registration.</p>
-    </div>
-  </header>
-
-  <section class="boxes">
-    <div class="container">
-      <div class="box">
-        <h4>Email</h4>
-        <input type="text" placeholder="name@example.com" class="textField">
-      </div>
-      <div class="box">
-        <h4>Password</h4>
-        <input type="password" placeholder="min. 8 characters" class="textField">
-        <img src="Images/eye%20on.png" alt="eye" class="eye">
-      </div>
-      <div class="box">
-        <input type="checkbox" id="logged">
-        <label for="logged">Keep me logged in</label>
-      </div>
-      <div class="box">
-        <button class="button">Login</button>
-      </div>
-      <div class="box">
-        <a href="#">Forgot password</a>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="container">
-      Don't have an account?<a href="#">Sign up</a>
-    </div>
-  </footer>
-</div>
-
-<div class="review-page-container">
-
-  <div class="container-page-2">
-    <div class="box-page-2">
-      <div class="inner-container">
-        <header class="header2">
-          <div>
-            <h4>Overall rating</h4>
-            <div class="ratings">
-              <h2 class="item">4.2</h2>
-              <div class="stars">
-                <i class="material-icons blue">star</i>
-                <i class="material-icons blue">star</i>
-                <i class="material-icons blue">star</i>
-                <i class="material-icons blue">star</i>
-                <i class="material-icons gray">star</i>
-              </div>
-              <p class="item">3 votes</p>
-            </div>
-          </div>
-          <input type="button" value="Leave review" class="review">
-        </header>
-        <hr class="line">
-        <div>
-          <input type="text" value="Sort by: Newest first " class="sorting">
+      <section class="boxes">
+        <div class="box">
+          <h4>Email</h4>
+          <input type="text" placeholder="name@example.com" class="textField" />
         </div>
-        <div class="box2">
-          <div class="personal-info">
-            <img src="Images/circle2.png" alt="" class="icon">
-            <div>
-              <h4>Savannah Miles</h4>
-              <div class="ratings">
-                <div class="stars">
-                  <i class="material-icons blue">star</i>
-                  <i class="material-icons blue">star</i>
-                  <i class="material-icons blue">star</i>
-                  <i class="material-icons blue">star</i>
-                  <i class="material-icons blue">star</i>
+        <div class="box">
+          <h4>Password</h4>
+          <input
+            type="password"
+            placeholder="min. 8 characters"
+            class="textField"
+          />
+          <img src="Images/eye%20on.png" alt="eye" class="eye" />
+        </div>
+        <div class="box">
+          <input type="checkbox" id="logged" />
+          <label for="logged">Keep me logged in</label>
+        </div>
+        <div class="box">
+          <button class="button">Login</button>
+        </div>
+        <div class="box">
+          <a href="#">Forgot password</a>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div>Don't have an account?<a href="#">Sign up</a></div>
+      </footer>
+    </div>
+
+    <div class="review-page-container">
+      <div class="container-page-2">
+        <div class="box-page-2">
+          <div class="inner-container">
+            <header class="header2">
+              <div>
+                <h4>Overall rating</h4>
+                <div class="ratings">
+                  <h2 class="item">4.2</h2>
+                  <div class="stars">
+                    <i class="material-icons blue">star</i>
+                    <i class="material-icons blue">star</i>
+                    <i class="material-icons blue">star</i>
+                    <i class="material-icons blue">star</i>
+                    <i class="material-icons gray">star</i>
+                  </div>
+                  <p class="item">3 votes</p>
                 </div>
-                <p class="item">10 days ago</p>
               </div>
-            </div>
-          </div>
-          <div class="comment">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse mauris quam, luctus sit amet maximus eu.</p>
-            <div class="rate">
-              <div class="rating">
-                <i class="material-icons thumb-up">thumb_up</i>
-                <p class="item">14</p>
-              </div>
-              <div class="rating">
-                <i class="material-icons thumb-down">thumb_down</i>
-                <p class="item">4</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr>
-
-        <div class="box2">
-          <div class="personal-info">
-            <img src="Images/circle1.png" alt="" class="icon">
+              <input type="button" value="Leave review" class="review" />
+            </header>
+            <hr class="line" />
             <div>
-              <h4>Jacob Jones</h4>
-              <div class="ratings">
-                <div class="stars">
-                  <i class="material-icons blue">star</i>
-                  <i class="material-icons blue">star</i>
-                  <i class="material-icons blue">star</i>
-                  <i class="material-icons blue">star</i>
-                  <i class="material-icons gray">star</i>
+              <input
+                type="text"
+                value="Sort by: Newest first "
+                class="sorting"
+              />
+            </div>
+            <div class="box2">
+              <div class="personal-info">
+                <img src="Images/circle2.png" alt="" class="icon" />
+                <div>
+                  <h4>Savannah Miles</h4>
+                  <div class="ratings">
+                    <div class="stars">
+                      <i class="material-icons blue">star</i>
+                      <i class="material-icons blue">star</i>
+                      <i class="material-icons blue">star</i>
+                      <i class="material-icons blue">star</i>
+                      <i class="material-icons blue">star</i>
+                    </div>
+                    <p class="item">10 days ago</p>
+                  </div>
                 </div>
-                <p class="item">1 days ago</p>
+              </div>
+              <div class="comment">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse mauris quam, luctus sit amet maximus eu.
+                </p>
+                <div class="rate">
+                  <div class="rating">
+                    <i class="material-icons thumb-up">thumb_up</i>
+                    <p class="item">14</p>
+                  </div>
+                  <div class="rating">
+                    <i class="material-icons thumb-down">thumb_down</i>
+                    <p class="item">4</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr />
+
+            <div class="box2">
+              <div class="personal-info">
+                <img src="Images/circle1.png" alt="" class="icon" />
+                <div>
+                  <h4>Jacob Jones</h4>
+                  <div class="ratings">
+                    <div class="stars">
+                      <i class="material-icons blue">star</i>
+                      <i class="material-icons blue">star</i>
+                      <i class="material-icons blue">star</i>
+                      <i class="material-icons blue">star</i>
+                      <i class="material-icons gray">star</i>
+                    </div>
+                    <p class="item">1 days ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="comment">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse mauris quam, luctus sit amet maximus eu.
+                </p>
               </div>
             </div>
           </div>
-          <div class="comment">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse mauris quam, luctus sit amet maximus eu.</p>
-          </div>
         </div>
-      </div>
-    </div>
 
-    <div class="box-page-2">
-      <div class="inner-container2">
-        <div class="box2">
-            <img src="Images/img1.png" alt="" class="image">
+        <div class="box-page-2">
+          <div class="inner-container2">
+            <div class="box2">
+              <img src="Images/img1.png" alt="" class="image" />
             </div>
             <h3>Roll set</h3>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.</p>
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            </p>
             <div class="add">
               <h2>$22.56</h2>
-              <i class="material-icons plus">add_box</i>
+              <i class="material-icons plus">add</i>
             </div>
+          </div>
+        </div>
       </div>
     </div>
-
-
-  </div>
-</div>
-</body>
+  </body>
 </html>
