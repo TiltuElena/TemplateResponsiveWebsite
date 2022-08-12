@@ -21,6 +21,7 @@ body {
     max-width: 350px;
     margin: 0 auto;
     background: #fff;
+    padding: 10px
 }
 
 .review-page-container {
@@ -47,6 +48,20 @@ body {
 
 .header p {
     margin-top: 30px;
+}
+
+.header h1 {
+    font-size: 64px;
+    color: #2B2B43;
+}
+
+.navbar a h1:nth-child(1) {
+    color: #2B2B43;
+}
+
+.navbar a {
+    font-size: 14px;
+    line-height: 20px;
 }
 
 a {
@@ -120,6 +135,12 @@ input {
 }
 
 /*part 2*/
+.inner-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 300px;
+}
 
 .box-page-right {
     display: flex;
@@ -294,7 +315,7 @@ hr {
     background: #fff;
     border-radius: 15px;
     height: auto;
-    max-width: 80%;
+    width: 80%;
     position: absolute;
     top: -25px;
     z-index: 2;
@@ -302,7 +323,8 @@ hr {
 }
 
 .box-bottom {
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
     padding: 15px 17px 15px 17px;
     gap: 1em;
 }
@@ -354,7 +376,7 @@ hr {
     height: 40px;
     width: 100%;
     text-align: center;
-    display: block;
+    /*display: block;*/
     font-size: 14px;
 }
 
@@ -389,7 +411,8 @@ hr {
     flex-direction: column;
     align-items: center;
     gap: 1em;
-    width: 180px;
+    /*width: 180px;*/
+    /*width: 100%;*/
     align-self: center;
 }
 
@@ -422,4 +445,18 @@ hr {
 
 .footer-right h1 {
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .login-page-container {
+        grid-column: 1/-1;
+    }
+
+    .review-page-container {
+        display: none;
+    }
+
+    .header {
+        margin-top: 100px;
+    }
 }

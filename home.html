@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <link  href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/outline.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+<div class="home-page">
+  <nav class="navbar">
+    <div class="left-navbar">
+      <a href="home.html"><div class="logo">Food</div>
+        <div class="logo">delivery</div></a>
+      <form class="search-bar">
+        <input type="text" placeholder="Search" class="search">
+        <button type="submit" class="submit-search"><i class="material-icons search-icon">search</i></button>
+      </form>
+    </div>
+    <div class="right-navbar">
+      <div class="navbar-links">
+        <a href="#">Restaurants</a>
+        <a href="#">Deals</a>
+        <hr>
+        <a href="#">My orders</a>
+      </div>
+      <div class="shop">
+        <a href="#">
+          <div class="shopping-icon">
+            <i class="material-icons-outlined shopping-bag">shopping_bag</i>
+          </div>
+        </a>
+        <div class="number">4</div>
+      </div>
+      <div class="outline-avatar">
+        <a href="account.html"><img src="Images/avatar.png" alt="woman-avatar" class="avatar"></a>
+      </div>
+      <div class="phone-menu">
+        <hr>
+        <a href="index.html">
+        <div class="menu-menu">
+          <div class="menu">
+            <i class="material-icons menu-icon">menu</i>
+          </div>
+        </div>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <hr>
+  <header>
+    <div class="food-promo">
+      <div class="promo-box promo-box-deserts">
+        <img src="Images/cupcake.png" alt="cupcake" class="food">
+        <div class="promo-info promo-info-deserts">
+          <div>
+            <h3>All deserts</h3>
+            <h1>20% OFF</h1>
+          </div>
+          <div>Deserty</div>
+        </div>
+      </div>
+      <div class="promo-box promo-box-burger">
+        <img src="Images/burger.png" alt="burger" class="food">
+        <div class="promo-info promo-info-burger">
+          <div>
+            <h3>Big Burgers</h3>
+            <h1>50% OFF</h1>
+          </div>
+          <div>Foodies</div>
+        </div>
+      </div>
+    </div>
+    <div class="selected-food">
+      <input type="checkbox" class="hidden " id="pizza">
+      <label class="select-item"  for="pizza"><img src="Images/pizzaEmoji.png" alt="pizza"><span>Pizza</span></label>
+      <input type="checkbox" class="hidden " id="burger">
+      <label class="select-item"  for="burger"><img src="Images/burgerEmoji.png" alt="burger"><span>Burger</span></label>
+      <input type="checkbox" class="hidden " id="bbq">
+      <label class="select-item"  for="bbq"><img src="Images/meatEmoji.png" alt="BBQ"><span>BBQ</span></label>
+      <input type="checkbox" class="hidden " id="sushi">
+      <label class="select-item"  for="sushi"><img src="Images/sushiEmoji.png" alt="sushi"><span>Sushi</span></label>
+      <input type="checkbox" class="hidden " id="broccoli">
+      <label class="select-item"  for="broccoli"><img src="Images/broccoliEmoji.png" alt="Broccoli"><span>Vegan</span></label>
+      <input type="checkbox" class="hidden " id="dessert">
+      <label class="select-item"  for="dessert"><img src="Images/cakeEmoji.png" alt="cake"><span>Desserts</span></label>
+    </div>
+  </header>
+  <div class="main">
+    <h3>Nearby restaurants</h3>
+    <div class="restaurants">
+      <div class="restaurant-presentation">
+        <div class="featured">FEATURED</div>
+        <div class="content">
+          <div class="restaurant-image">
+            <figure><img src="Images/foodImg.png"  alt="sushi"/></figure>
+          </div>
+          <div class="restaurant-details">
+            <div class="restaurant-delivery">
+              <h3>Royal Sushi House</h3>
+              <i class="material-icons-outlined shopping-bag-gray">shopping_bag</i>
+            </div>
+            <div class="delivery-details">
+              <i class="material-icons-outlined clock-icon">schedule</i>
+              <div>30-40 min</div>
+              <i class="material-icons dot">circle</i>
+              <div>$32 min sum</div>
+            </div>
+            <button type="button" class="select-item-small"><img class="emoji-small" src="Images/sushiEmoji.png"
+                                                                 alt="sushi">Sushi
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="restaurant-presentation">
+        <div class="featured">FEATURED</div>
+        <div class="content">
+          <div class="restaurant-image">
+          <figure><img src="Images/burgerImg.png"  alt="burger"/></figure>
+          </div>
+          <div class="restaurant-details">
+            <div class="restaurant-delivery">
+              <h3>Burger & Pizza</h3>
+              <div class="shopping-bag-number">
+                <i class="material-icons-outlined shopping-bag">shopping_bag</i>
+                <div class="shopping-number">2</div>
+              </div>
+            </div>
+            <div class="delivery-details">
+              <i class="material-icons-outlined clock-icon">schedule</i>
+              <div>40-60 min</div>
+              <i class="material-icons dot">circle</i>
+              <div>$24 min sum</div>
+            </div>
+            <div class="restaurant-small-emoji">
+              <button type="button" class="select-item-small"><img class="emoji-small" src="Images/burgerEmoji.png"
+                                                                   alt="sushi">Burger
+              </button>
+              <button type="button" class="select-item-small"><img class="emoji-small" src="Images/pizzaEmoji.png"
+                                                                   alt="sushi">Pizza
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="restaurant-presentation">
+        <div class="content">
+          <div class="restaurant-image">
+            <figure><img src="Images/sushiImg.png"  alt="sushi"/></figure>
+          </div>
+          <div class="restaurant-details">
+            <div class="restaurant-delivery">
+              <h3>Ninja Sushi</h3>
+              <i class="material-icons-outlined shopping-bag-gray">shopping_bag</i>
+            </div>
+            <div class="delivery-details">
+              <i class="material-icons-outlined clock-icon">schedule</i>
+              <div>20-40 min</div>
+              <i class="material-icons dot">circle</i>
+              <div>$40 min sum</div>
+            </div>
+            <button type="button" class="select-item-small"><img class="emoji-small" src="Images/sushiEmoji.png"
+                                                                 alt="sushi">Sushi
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="restaurant-presentation">
+        <div class="content">
+          <div class="restaurant-image">
+            <figure><img src="Images/halfImg.png"  alt="sushi"/></figure>
+          </div>
+          <div class="restaurant-details">
+            <div class="restaurant-delivery">
+              <h3>Ninja Sushi</h3>
+              <i class="material-icons-outlined shopping-bag-gray">shopping_bag</i>
+            </div>
+            <div class="delivery-details">
+              <i class="material-icons-outlined clock-icon">schedule</i>
+              <div>20-40 min</div>
+              <i class="material-icons dot">circle</i>
+              <div>$40 min sum</div>
+            </div>
+            <button type="button" class="select-item-small"><img class="emoji-small" src="Images/sushiEmoji.png"
+                                                                 alt="sushi">Sushi
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="restaurant-presentation">
+        <div class="content">
+          <div class="restaurant-image">
+            <figure><img src="Images/halfSmallSushi.png"  alt="sushi"/></figure>
+          </div>
+          <div class="restaurant-details">
+            <div class="restaurant-delivery">
+              <h3>Ninja Sushi</h3>
+              <i class="material-icons-outlined shopping-bag-gray">shopping_bag</i>
+            </div>
+            <div class="delivery-details">
+              <i class="material-icons-outlined clock-icon">schedule</i>
+              <div>20-40 min</div>
+              <i class="material-icons dot">circle</i>
+              <div>$40 min sum</div>
+            </div>
+            <button type="button" class="select-item-small"><img class="emoji-small" src="Images/sushiEmoji.png"
+                                                                 alt="sushi">Sushi
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="restaurant-presentation">
+        <div class="content">
+          <div class="restaurant-image">
+            <figure><img src="Images/halfSushi.png"  alt="sushi"/></figure>
+          </div>
+          <div class="restaurant-details">
+            <div class="restaurant-delivery">
+              <h3>Ninja Sushi</h3>
+              <i class="material-icons-outlined shopping-bag-gray">shopping_bag</i>
+            </div>
+            <div class="delivery-details">
+              <i class="material-icons-outlined clock-icon">schedule</i>
+              <div>20-40 min</div>
+              <i class="material-icons dot">circle</i>
+              <div>$40 min sum</div>
+            </div>
+            <button type="button" class="select-item-small"><img class="emoji-small" src="Images/sushiEmoji.png"
+                                                                 alt="sushi">Sushi
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

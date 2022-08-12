@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Account</title>
+  <link rel="stylesheet" href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/outline.css">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="account.css">
+</head>
+<body>
+<div class="settings-page">
+  <nav class="navbar">
+    <div class="left-navbar">
+      <a href="home.html"><h1>Food</h1>
+        <h1>delivery</h1></a>
+      <form class="search-bar">
+        <input type="text" placeholder="Search" class="search">
+        <button type="submit" class="submit-search"><i class="material-icons search-icon">search</i></button>
+      </form>
+    </div>
+    <div class="right-navbar">
+      <div class="navbar-links">
+        <a href="#">Restaurants</a>
+        <a href="#">Deals</a>
+        <hr>
+        <a href="#">My orders</a>
+      </div>
+      <div class="shop">
+        <a href="#">
+          <div class="shopping-icon">
+            <i class="material-icons-outlined shopping-bag">shopping_bag</i>
+          </div>
+        </a>
+        <div class="number">4</div>
+      </div>
+      <div class="outline-avatar">
+        <a href="#"><img src="Images/avatar.png" alt="woman-avatar" class="avatar"></a>
+      </div>
+      <div class="phone-menu">
+        <hr>
+        <a href="index.html">
+          <div class="menu-menu">
+            <div class="menu">
+              <i class="material-icons menu-icon">menu</i>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <hr>
+  <div class="content">
+    <section class="left-section">
+      <div class="section-title">Settings</div>
+      <div class="settings">
+        <button type="button" class="setting">
+          <i class="material-icons-outlined settings-icon">person</i>
+          <span class="info">
+            <span class="info-title">Account</span>
+            <span class="info-details"> Personal Information </span>
+            </span>
+        </button>
+
+        <button type="button" class="setting">
+            <span class="icon-box">
+            <i class="material-icons-outlined settings-icon">place</i>
+            </span>
+          <span class="info">
+            <span class="info-title">Address</span>
+            <span class="info-details">Shipping addresses</span>
+            </span>
+        </button>
+
+        <button type="button" class="setting">
+            <span class="icon-box">
+            <i class="material-icons-outlined settings-icon">credit_card</i>
+            </span>
+          <span class="info">
+            <span class="info-title">Payment method</span>
+            <span class="info-details">Connected credit cards</span>
+            </span>
+        </button>
+
+        <button type="button" class="setting">
+            <span class="icon-box">
+            <i class="material-icons-outlined settings-icon">shield</i>
+            </span>
+          <span class="info">
+            <span class="info-title">Security</span>
+            <span class="info-details">Password, 2FA</span>
+            </span>
+        </button>
+      </div>
+    </section>
+
+    <main class="right-section">
+      <div class="section-title">Account</div>
+      <div class="personal-info">
+        <div class="personal-avatar">
+          <h3>Personal information</h3>
+          <div>Avatar</div>
+          <div class="avatar-changes">
+            <img src="Images/photo.png" alt="woman-photo" class="avatar-img">
+            <div class="buttons">
+              <button class="button">Change</button>
+              <button class=" button">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="insert-personal-info">
+          <div class="insert-area">
+            <div class="insert-hint">First name</div>
+            <input type="text" placeholder="Jane" class="insert-text">
+          </div>
+          <div class="insert-area">
+            <div class="insert-hint">Last name</div>
+            <input type="text" placeholder="Robertson" class="insert-text">
+          </div>
+          <div class="insert-area">
+            <div class="insert-hint">Email</div>
+            <input type="text" placeholder="jane.robertson@example.com" class="insert-text">
+          </div>
+          <div class="insert-area">
+            <div class="insert-hint">Phone number</div>
+            <input type="text" placeholder="(217) 555-0113" class="insert-text">
+          </div>
+        </div>
+        <div class="notifications">
+          <div class="email-notifications">Email notifications</div>
+          <div class="choices">
+            <label class="choice">
+              <input type="checkbox" name="checkbox">
+              New deals
+            </label>
+            <label class="choice">
+              <input type="checkbox" name="checkbox">
+              Password changes
+            </label>
+            <label class="choice">
+              <input type="checkbox" name="checkbox">
+              New restaurants
+            </label>
+            <label class="choice">
+              <input type="checkbox" name="checkbox">
+              Special offers
+            </label>
+            <label class="choice">
+              <input type="checkbox" name="checkbox">
+              Order statuses
+            </label>
+            <label class="choice">
+              <input type="checkbox" name="checkbox">
+              Newsletter
+            </label>
+          </div>
+        </div>
+        <div class="page-bottom">
+          <hr class="divide">
+          <a href="index.html"><input type="button" value="Log out" class="footer-button log-out"></a>
+          <div class="change-buttons">
+            <input type="button" value="Discard changes" class="footer-button discard-changes">
+            <input type="button" value="Save changes" class="footer-button save-changes">
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+</body>
+</html>
